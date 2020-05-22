@@ -1,0 +1,30 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+
+<div class="container">
+<h1>{{title}}</h1>
+
+<ul class="nav justify-content-center">
+  <li class="nav-item">
+    <a class="nav-link active" [routerLink]="['seattle']">Seattle WA </a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active" [routerLink]="['sanJose']">San Jose CA</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active" [routerLink]="['burbank']">Burbank CA</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active" [routerLink]="['dallas']">Dallas TX</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active" [routerLink]="['washington']">Washington D.C.</a>
+  </li>
+  <li class="nav-itemEnd">
+    <a class="nav-link active" [routerLink]="['chicago']">Chicago IL</a>
+  </li>
+</ul>
+
+</div>
+
+<router-outlet></router-outlet>
